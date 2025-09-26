@@ -27,5 +27,6 @@ public class Main {
         System.out.println("Total Bill Cost: $" + money(totalBill));
         System.out.println("Tip Per Person: $" + money(tipPerPerson));
         System.out.println("Bill Per Person: $" + money(billPerPerson));
+        s.close();
     }
 }
